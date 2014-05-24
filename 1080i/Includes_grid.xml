@@ -17,6 +17,7 @@
     <constant name="col-5-begin">384</constant>
     <constant name="col-6-begin">456</constant>
     <constant name="col-7-begin">528</constant>
+    <constant name="col-7-5-begin">564</constant>
     <constant name="col-8-begin">600</constant>
     <constant name="col-9-begin">672</constant>
     <constant name="col-10-begin">744</constant>
