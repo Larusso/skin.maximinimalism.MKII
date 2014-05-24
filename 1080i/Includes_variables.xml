@@ -53,7 +53,8 @@
     <!--list view item detail / subheader-->
     <variable name="itemDetail">
         <value condition="Container.Content(movies)">$INFO[Listitem.duration,,$LOCALIZE[31018]] • $VAR[itemResolution] $INFO[ListItem.VideoResolution]</value>
-        <value condition="Container.Content(tvshows)">$INFO[ListItem.Property(TotalEpisodes)] $LOCALIZE[20360]</value>
+        <value condition="Container.Content(tvshows) + System.Setting(hidewatched)">$INFO[ListItem.Property(UnWatchedEpisodes)] / $INFO[ListItem.Property(TotalEpisodes)]</value>
+        <value condition="Container.Content(tvshows) + !System.Setting(hidewatched)">$INFO[ListItem.Property(TotalEpisodes)]</value>
         <value condition="Container.Content(seasons)">$INFO[ListItem.Property(UnWatchedEpisodes)] $LOCALIZE[16101]</value>
         <value condition="Container.Content(artists)">$INFO[ListItem.Property(Artist_Genre)]</value>
 		<value></value>
