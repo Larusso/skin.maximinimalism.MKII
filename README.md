@@ -1,10 +1,17 @@
-skin.maximinimalism
+skin.maximinimalismMKII
 ===================
 
-Maximinimalism is a skin for XBMC 13 (Gotham) and above.
+Maximinimalism Mark II is a skin for XBMC 13 (Gotham) and above.
+It`s a fork from [Maximinimalism](https://github.com/chrisbevan/skin.maximinimalism) 
 
-Maximinimalism is designed to provide a simple, consistent and fast media browsing experience, particularly for lower power devices such as the Raspberry Pi.
+The Mark II has a few changes regarding fanart usage and the main menu.
 
-By theDeadman.
+- This version is for XBMC video users only. I removed the menu points for music and photo (because this skin is planned for my use only).
+
+- The fanart background will change in movie and tv show lists too.
+
+- The recent items view will only display recent tv episodes.  
+
+Larusso.
 
   
